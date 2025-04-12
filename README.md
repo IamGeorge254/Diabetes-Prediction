@@ -57,13 +57,15 @@ criterion = 'gini'
 random_state = 42
 
 
-Model Evaluation:
+## Model Evaluation:
+
 Accuracy: 96.64% (0.9664)
 
 
 Confusion Matrix:
 
 [[17996   104]
+
  [  562  1153]]
 
 
