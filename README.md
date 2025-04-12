@@ -133,3 +133,6 @@ There’s a noticeable drop in recall for diabetic cases (Class 1), indicating s
 
 
 Despite this, the overall accuracy and precision make the model suitable for real-world application with potential for further tuning.
+## Link to dataset
+
+[Link to Dataset on Kaggle](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
