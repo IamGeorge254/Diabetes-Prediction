@@ -69,10 +69,10 @@ Confusion Matrix:
  [  562  1153]]
 
 
-Classification Report:
+## Classification Report:
 
 
-Class 0 (Non-Diabetic):
+## Class 0 (Non-Diabetic):
 
 
 Precision: 0.97
@@ -87,7 +87,7 @@ F1-Score: 0.98
 Support: 18,100
 
 
-Class 1 (Diabetic):
+## Class 1 (Diabetic):
 
 
 Precision: 0.92
@@ -102,7 +102,7 @@ F1-Score: 0.78
 Support: 1,715
 
 
-Macro Average:
+## Macro Average:
 
 
 Precision: 0.94
@@ -114,7 +114,7 @@ Recall: 0.83
 F1-Score: 0.88
 
 
-Weighted Average:
+## Weighted Average:
 
 
 Precision: 0.97
