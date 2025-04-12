@@ -23,3 +23,111 @@ Class Imbalance Handling: Used SMOTE (Synthetic Minority Oversampling Technique)
 
 
 Feature Selection: Retained only the most impactful variables based on correlation and feature importance analysis to enhance model performance.
+## Model Development Overview
+
+Multiple machine learning models were explored, including Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine (SVM).
+Development Workflow:
+Train-Test Split: 80% of the data was used for training, 20% for testing.
+
+
+Cross-Validation: 5-fold cross-validation was implemented to ensure model stability.
+
+
+Hyperparameter Tuning: Used GridSearchCV for fine-tuning each model's parameters.
+
+
+Evaluation Metrics: Accuracy, Precision, Recall, F1-score
+## Updated Final Model Chosen
+
+After evaluating multiple models, Random Forest Classifier emerged as the best performer due to its robustness, ability to handle feature interactions, and resistance to overfitting.
+Final Model Configuration:
+Algorithm: Random Forest Classifier
+
+
+Hyperparameters Used:
+n_estimators = 100
+
+
+max_depth = 10
+
+
+criterion = 'gini'
+
+
+random_state = 42
+
+
+Model Evaluation:
+Accuracy: 96.64% (0.9664)
+
+
+Confusion Matrix:
+
+[[17996   104]
+ [  562  1153]]
+
+
+Classification Report:
+
+
+Class 0 (Non-Diabetic):
+
+
+Precision: 0.97
+
+
+Recall: 0.99
+
+
+F1-Score: 0.98
+
+
+Support: 18,100
+
+
+Class 1 (Diabetic):
+
+
+Precision: 0.92
+
+
+Recall: 0.67
+
+
+F1-Score: 0.78
+
+
+Support: 1,715
+
+
+Macro Average:
+
+
+Precision: 0.94
+
+
+Recall: 0.83
+
+
+F1-Score: 0.88
+
+
+Weighted Average:
+
+
+Precision: 0.97
+
+
+Recall: 0.97
+
+
+F1-Score: 0.96
+## Insights
+
+The model performed exceptionally well for the non-diabetic class (Class 0).
+
+
+There’s a noticeable drop in recall for diabetic cases (Class 1), indicating some diabetic patients were not correctly identified — possibly due to class imbalance or overlapping features.
+
+
+Despite this, the overall accuracy and precision make the model suitable for real-world application with potential for further tuning.
