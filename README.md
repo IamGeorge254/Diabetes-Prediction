@@ -25,7 +25,7 @@ Class Imbalance Handling: Used SMOTE (Synthetic Minority Oversampling Technique)
 Feature Selection: Retained only the most impactful variables based on correlation and feature importance analysis to enhance model performance.
 ## Model Development Overview
 
-Multiple machine learning models were explored, including Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine (SVM).
+Multiple machine learning models were explored, including Logistic Regression, Random Forest, and Support Vector Machine (SVM).
 Development Workflow:
 Train-Test Split: 80% of the data was used for training, 20% for testing.
 
